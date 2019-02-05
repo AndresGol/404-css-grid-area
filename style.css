@@ -12,6 +12,8 @@
 .item5 { grid-area: footer; }
 
 .grid-container {
+	width: 95%;
+	
   display: grid;
   grid-template-areas:
   'header header header header header header'
