@@ -1,3 +1,13 @@
+
+body {
+	background-color: #EE4B5E;
+	margin: 0px;
+	margin-top: 30px;
+	padding: 0px;
+}
+
+
+
 .item1 { grid-area: header;
     color: antiquewhite;
 }
@@ -12,8 +22,7 @@
 .item5 { grid-area: footer; }
 
 .grid-container {
-	width: 95%;
-	
+	width: 99%;
   display: grid;
   grid-template-areas:
   'header header header header header header'
